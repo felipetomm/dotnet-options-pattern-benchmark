@@ -79,7 +79,6 @@ public class OptionsBenchmark
     {
         _contador++;
         
-        // if(_contador % 10 == 0)
         GravarArquivoJson(_contador); // O gargalo está aqui (Disco)
         
         // O Monitor não bloqueia aqui. Ele retorna o valor (mesmo que seja o antigo por alguns ms)
