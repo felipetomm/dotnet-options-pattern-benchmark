@@ -1,6 +1,19 @@
 # .NET BenchMark for IOPtions Patter
 This project reproduce some cenarios to validate the benchmark for different IOptions patterns.
 
+## How to run
+Follow the steps below:
+```sh
+# Clone this repo
+git clone https://github.com/felipetomm/dotnet-options-pattern-benchmark.git
+
+# enter in cloned directory
+cd dotnet-options-pattern-benchmark
+
+# execute dotnet run
+dotnet run -c Release
+```
+
 ## Cenarios
 ### [AcessoSingletonPuro](https://github.com/felipetomm/dotnet-options-pattern-benchmark/blob/main/Program.cs#L62)
 Represents the use of an section of appsettings directly via IOptions as a singleton instance.
