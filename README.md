@@ -1,4 +1,4 @@
-# .NET BenchMark for IOPtions Patter
+# .NET BenchMark for IOPtions Pattenr
 This project reproduce some cenarios to validate the benchmark for different IOptions patterns.
 
 ## How to run
